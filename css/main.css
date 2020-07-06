@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import "reset.css";
+@import "/css/landing-page/header.css";
+@import "/css/landing-page/top-jumbo.css";
+@import "/css/landing-page/design-by.css";
+@import "/css/landing-page/color-collection.css";
+@import "/css/landing-page/blue-print.css";
+@import "/css/landing-page/latest.css";
+@import "/css/landing-page/footer.css";
+/* Colors
+#FEA83B Orange
+#6066F2 Light Blue
+#B286F8 Purple
+#4C44C1 Blue
+#E6CDF9 Light Purple
+#D5E2EA Light Placeholder
+*/
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container-fluid {
+  margin: 0 5%;
+  padding: 0 20px;
+}
+.box-shadow-down {
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+.box-shadow-center {
+  -webkit-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  -moz-box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+  box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+}
+input::placeholder {
+  color: #d5e2ea;
+}
+
+/* LAPTOP DEVICES */
+@media only screen and (max-width: 1215px) {
+}
+/* TABLET DEVICES */
+@media only screen and (max-width: 1023px) {
+}
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+}
